@@ -1,0 +1,42 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.page_four{
+          width: 100%;
+}
+
+.rank{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+}
+
+.school_marquee marquee{
+          font-size: calc(18px + 5.5vw);
+          border-top: 2px soliD rgb(65, 185, 233);
+          border-bottom: 2px solid rgb(65, 185, 233);
+}
+
+.percentage h1{
+          font-size: calc( 18px + 4vw);
+          max-width: 600px; 
+          color: rgb(65, 185, 233);
+}
+
+.percentage p{
+          font-size: calc(18px + 1.3vw);
+          max-width: 750px;
+}
+
+.rank_img img{
+          width: 26vw;
+}
+
+.rank_perentage, .rank{
+          margin-top: 10%;
+          margin-bottom: 10%;
+}

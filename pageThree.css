@@ -1,0 +1,53 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.page_three{
+          width: 100%;
+          background: skyblue;
+}
+
+.idol img{
+          width: 26vw;
+          padding-top: 25%;
+}
+
+.sports_info{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+}
+
+.sports_like{
+          padding-left: 10%;
+          padding-top: 6%;
+}
+
+.sports_like h1{
+          font-size: calc( 18px + 6vw);
+          max-width: 600px; 
+          color: white; 
+}
+
+.sports_like p{
+          font-size: calc(18px + 2vw);
+          max-width: 750px;
+          color: #C0FF02;
+}
+
+.sports_message{
+          padding-top: 10%;
+          padding-bottom: 8%;
+          color: white;
+}
+
+.sports_message marquee{
+          font-size: calc(18px + 5.5vw);
+          border-top: 2px solid rgb(0, 0, 0);
+          border-bottom: 2px solid rgb(0, 0, 0);
+
+}

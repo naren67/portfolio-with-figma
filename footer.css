@@ -1,0 +1,23 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.footer{
+          width: 100%;
+}
+
+.know_more{
+          padding: 3%;
+          display: grid;
+          place-items: center;
+}
+
+.know_more a{
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          padding: 2% 5%;
+}
+
+

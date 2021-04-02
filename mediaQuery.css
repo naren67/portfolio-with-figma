@@ -1,0 +1,180 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width:480px){
+
+          /* page one */
+
+   .img_name{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+   }
+
+   .profile_img img{
+             width: 60vw;
+             padding-top: 30%;
+   }
+
+   .name{
+             text-align: center;
+             padding-right: 20%;
+             padding-top: 20%;
+             display: flex;
+   }
+
+   .name h1{
+             font-size: calc(6vw);
+             transform: rotate(-90deg);
+   }
+
+   .name marquee{
+         font-size: calc(5vw);
+   }
+
+   .page_one{
+             width: 100%;
+             height: 20%;
+   }
+
+   .life{
+             padding-bottom: 35%;
+   }
+   
+
+   /* page two */
+
+   .self_intro{
+             padding: 10%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+          }
+
+          .page_two{
+                    width: 100%;
+                    height: 140vh;
+          }
+
+          .myself p{
+               padding-top: 20%;
+          }
+
+          .myself h1{
+                    padding-top: 10%;
+          }
+
+          .hand img{
+                    width: 60vw;
+                    padding-top: 20%;
+                    padding-bottom: 10%;
+          }
+
+          /* page three */
+
+          .idol img{
+                    width: 60vw;
+                    padding-top: 35%;    
+          }
+
+          .sports_like{
+                    padding-top: 15%;
+          }
+
+          .sports_like h1{
+                    padding-bottom: 10%;
+          }
+
+          .sports_like p{
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+          }
+
+          .sports_message{
+                    padding-bottom: 15%;
+          }
+
+          /* page four */
+
+          .school_marquee{
+                    padding-top: 10%;
+          }
+
+          .rank{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .percentage h1{
+                    padding-bottom: 10%;
+                    max-width: 400px;
+                    padding-left: 8%;
+          }
+
+          .percentage p{
+                    padding-left: 10%;
+          }
+
+          .totalMarks{
+                    padding-bottom: 10%;
+          }
+
+          .rank_img img{
+                    width: 60vw;
+                    padding-bottom: 25%;
+          }
+
+          /* page five */
+
+          .page_five{
+                    width: 100%;
+                    height: 110vh;
+          }
+
+          .work_compass{
+                    padding: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 18%;
+          }
+
+          .worked h1{
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+          }
+
+          .worked p{
+                    padding-bottom: 10%;
+          }
+
+          .myWork{
+                    padding-bottom: 20%;
+          }
+          
+
+          .compass svg{
+                    width: 60vw;
+                   padding-right: 20%;
+                   
+          }
+
+          .myWork a{
+                    padding-right: 20%;
+                    
+          }
+
+          /* footer */
+
+          .know_more{
+                    padding-top: 5.5%;
+          }
+}
