@@ -6,6 +6,8 @@
 
 .page_four{
           width: 100%;
+          overflow: hidden;
+
 }
 
 .rank{
@@ -17,23 +19,58 @@
 
 .school_marquee marquee{
           font-size: calc(18px + 5.5vw);
-          border-top: 2px soliD rgb(65, 185, 233);
-          border-bottom: 2px solid rgb(65, 185, 233);
+          border-top: 2px soliD #007FFF;
+          border-bottom: 20px solid #007FFF;
+          transition: 0.5s ease-in-out;
+}
+
+.school_marquee marquee:hover{
+          border-top: 50px soliD rgb(0, 0, 0);
+          border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .percentage h1{
           font-size: calc( 18px + 4vw);
           max-width: 600px; 
-          color: rgb(65, 185, 233);
+          color: #007FFF;
+          margin-bottom: 10%;
+          transition: 0.5s ease-in-out;
+          font-family: 'Courier New', Courier, monospace;
+}
+
+.percentage h1:hover{
+          color: black;
+          border-bottom: 5px solid #007FFF;
 }
 
 .percentage p{
           font-size: calc(18px + 1.3vw);
           max-width: 750px;
+          transition: 0.8s ease-in-out;
+}
+
+.percentage p:hover{
+          color: #ffffff;
+          background: rgba(0, 0, 0, 0.428);
 }
 
 .rank_img img{
           width: 26vw;
+          border-radius: 25px;
+          margin-left: 10%;
+          animation: roll 8s infinite linear alternate-reverse;
+          transform-origin: center;
+          transform-box: fill-box;
+}
+
+
+@keyframes roll {
+          from{
+                   transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(30deg);
+          }
 }
 
 .rank_perentage, .rank{

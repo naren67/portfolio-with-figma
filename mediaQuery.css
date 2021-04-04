@@ -4,10 +4,25 @@
           box-sizing: border-box;
 }
 
-@media screen and (max-width:480px){
+/* max width 480px */
+
+@media screen and (max-width:360px) and (max-width:480px){
+
+
+      /* loading page */
+
+      .loadingPage{
+            
+      }
+
 
           /* page one */
 
+          .header-parts{
+                background: white;
+          }
+
+          
    .img_name{
              display: flex;
              flex-direction: column;
@@ -58,7 +73,7 @@
 
           .page_two{
                     width: 100%;
-                    height: 140vh;
+                    height: 120vh;
           }
 
           .myself p{
@@ -76,6 +91,10 @@
           }
 
           /* page three */
+
+          .page_three{
+                height: 160vh;
+          }
 
           .idol img{
                     width: 60vw;
@@ -113,13 +132,16 @@
           }
 
           .percentage h1{
-                    padding-bottom: 10%;
+                    padding-bottom: 1%;
+                    padding-top: 2%;
                     max-width: 400px;
                     padding-left: 8%;
+                    font-size: calc(48px);
           }
 
           .percentage p{
                     padding-left: 10%;
+                    font-size: calc(32px);
           }
 
           .totalMarks{
@@ -128,14 +150,16 @@
 
           .rank_img img{
                     width: 60vw;
-                    padding-bottom: 25%;
+                    padding-bottom: 20%;
+                    padding-right: 20%;
+                    margin-top: 15%;
           }
 
           /* page five */
 
           .page_five{
                     width: 100%;
-                    height: 110vh;
+                    height: 130vh;
           }
 
           .work_compass{
@@ -149,27 +173,34 @@
 
           .worked h1{
                     padding-top: 10%;
-                    padding-bottom: 10%;
+                    padding-bottom: 8%;
+                    font-size: calc(60px);
           }
 
           .worked p{
                     padding-bottom: 10%;
+                    font-size: calc(33px);
           }
 
           .myWork{
-                    padding-bottom: 20%;
+                 display: none;
           }
-          
+
 
           .compass svg{
                     width: 60vw;
                    padding-right: 20%;
+                   margin-top: 20%;
                    
           }
 
+
           .myWork a{
-                    padding-right: 20%;
-                    
+                    padding-right: 20%;         
+          }
+
+          .mail a{
+                font-size: 20px;
           }
 
           /* footer */
@@ -178,3 +209,890 @@
                     padding-top: 5.5%;
           }
 }
+
+
+/* max-width:600px */
+
+@media screen and (min-width:480px) and (max-width:600px){
+
+
+       /* loading page */
+
+       .loadingPage{
+            
+      }
+
+
+          /* page one */
+
+          .header-parts{
+                background: pink;
+          }
+
+          
+   .img_name{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+   }
+
+   .profile_img img{
+             width: 60vw;
+             padding-top: 30%;
+   }
+
+   .name{
+             text-align: center;
+             padding-right: 20%;
+             padding-top: 20%;
+             display: flex;
+   }
+
+   .name h1{
+             font-size: calc(6vw);
+             transform: rotate(-90deg);
+   }
+
+   .name marquee{
+         font-size: calc(5vw);
+   }
+
+   .page_one{
+             width: 100%;
+             height: 20%;
+   }
+
+   .life{
+             padding-bottom: 35%;
+   }
+   
+
+   /* page two */
+
+   .self_intro{
+             padding: 10%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+          }
+
+          .page_two{
+                    width: 100%;
+                    height: 120vh;
+          }
+
+          .myself p{
+               padding-top: 20%;
+          }
+
+          .myself h1{
+                    padding-top: 10%;
+          }
+
+          .hand img{
+                    width: 60vw;
+                    padding-top: 20%;
+                    padding-bottom: 10%;
+          }
+
+          /* page three */
+
+          .page_three{
+                height: 160vh;
+          }
+
+          .idol img{
+                    width: 60vw;
+                    padding-top: 35%;    
+          }
+
+          .sports_like{
+                    padding-top: 15%;
+          }
+
+          .sports_like h1{
+                    padding-bottom: 10%;
+          }
+
+          .sports_like p{
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+          }
+
+          .sports_message{
+                    padding-bottom: 15%;
+          }
+
+          /* page four */
+
+          .school_marquee{
+                    padding-top: 10%;
+          }
+
+          .rank{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .percentage h1{
+                    padding-bottom: 1%;
+                    padding-top: 2%;
+                    max-width: 400px;
+                    padding-left: 8%;
+                    font-size: calc(48px);
+          }
+
+          .percentage p{
+                    padding-left: 10%;
+                    font-size: calc(32px);
+          }
+
+          .totalMarks{
+                    padding-bottom: 10%;
+          }
+
+          .rank_img img{
+                    width: 60vw;
+                    padding-bottom: 20%;
+                    padding-right: 20%;
+                    margin-top: 15%;
+          }
+
+          /* page five */
+
+          .page_five{
+                    width: 100%;
+                    height: 130vh;
+          }
+
+          .work_compass{
+                    padding: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 18%;
+          }
+
+          .worked h1{
+                    padding-top: 10%;
+                    padding-bottom: 8%;
+                    font-size: calc(60px);
+          }
+
+          .worked p{
+                    padding-bottom: 10%;
+                    font-size: calc(33px);
+          }
+
+          .myWork{
+                 display: none;
+          }
+
+
+          .compass svg{
+                    width: 60vw;
+                   padding-right: 20%;
+                   margin-top: 20%;
+                   
+          }
+
+
+          .myWork a{
+                    padding-right: 20%;         
+          }
+
+          .mail a{
+                font-size: 20px;
+          }
+
+          /* footer */
+
+          .know_more{
+                    padding-top: 5.5%;
+          }
+}
+
+/* max-width:768px */
+
+@media screen and (min-width:600px) and (max-width:768px){
+
+
+       /* loading page */
+
+       .loadingPage{
+            
+      }
+
+
+          /* page one */
+
+          .header-parts{
+                background: greenyellow;
+          }
+
+          
+   .img_name{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+   }
+
+   .profile_img img{
+             width: 60vw;
+             padding-top: 30%;
+   }
+
+   .name{
+             text-align: center;
+             padding-right: 20%;
+             padding-top: 20%;
+             display: flex;
+   }
+
+   .name h1{
+             font-size: calc(6vw);
+             transform: rotate(-90deg);
+   }
+
+   .name marquee{
+         font-size: calc(5vw);
+   }
+
+   .page_one{
+             width: 100%;
+             height: 15%;
+   }
+
+   .life{
+             padding-bottom: 35%;
+   }
+   
+
+   /* page two */
+
+   .self_intro{
+             padding: 10%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+          }
+
+          .page_two{
+                    width: 100%;
+                    height: 170vh;
+          }
+
+          .myself p{
+               padding-top: 10%;
+          }
+
+          .myself h1{
+                    padding-top: 10%;
+          }
+
+          .hand img{
+                    width: 60vw;
+                    padding-top: 20%;
+                    padding-bottom: 10%;
+          }
+
+          /* page three */
+
+          .page_three{
+                height: 240vh;
+          }
+
+          .idol img{
+                    width: 60vw;
+                    padding-top: 35%;    
+          }
+
+          .sports_like{
+                    padding-top: 15%;
+          }
+
+          .sports_like h1{
+                    padding-bottom: 10%;
+          }
+
+          .sports_like p{
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    padding-right: 10%;
+          }
+
+          .sports_message{
+                    padding-bottom: 15%;
+          }
+
+          /* page four */
+
+          .school_marquee{
+                    padding-top: 6%;
+          }
+
+          .rank{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .percentage h1{
+                    padding-bottom: 1%;
+                    padding-top: 2%;
+                    max-width: 450px;
+                    padding-left: 8%;
+                    font-size: calc(55px);
+          }
+
+          .percentage p{
+                    padding-left: 10%;
+                    font-size: calc(38px);
+          }
+
+          .totalMarks{
+                    padding-bottom: 10%;
+          }
+
+          .rank_img img{
+                    width: 60vw;
+                    padding-bottom: 10%;
+                    padding-right: 20%;
+                    margin-top: 15%;
+          }
+
+          /* page five */
+
+          .page_five{
+                    width: 100%;
+                    height: 130vh;
+          }
+
+          .work_compass{
+                    padding: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 18%;
+          }
+
+          .worked h1{
+                    padding-top: 10%;
+                    padding-bottom: 8%;
+                    font-size: calc(80px);
+          }
+
+          .worked p{
+                    padding-bottom: 10%;
+                    font-size: calc(33px);
+          }
+
+          .myWork{
+                 display: none;
+          }
+
+
+          .compass svg{
+                    width: 60vw;
+                   padding-right: 20%;
+                   margin-top: 8%;
+                   
+          }
+
+
+          .myWork a{
+                    padding-right: 20%;         
+          }
+
+          .mail a{
+                font-size: 20px;
+          }
+
+          /* footer */
+
+          .know_more{
+                    padding-top: 4%;
+          }
+}
+
+
+
+/* max-width:1024px */
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+
+       /* loading page */
+
+       .loadingPage{
+            
+      }
+
+
+          /* page one */
+
+          .header-parts{
+                background: rgb(255, 0, 0);
+          }
+
+          
+   .img_name{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+   }
+
+   .profile_img img{
+             width: 45vw;
+             padding-top: 30%;
+   }
+
+   .name{
+             text-align: center;
+             padding-right: 10%;
+             padding-top: 10%;
+             display: flex;
+   }
+
+   .name h1{
+             font-size: calc(6vw);
+             transform: rotate(-90deg);
+             
+   }
+
+   .name marquee{
+         font-size: calc(5vw);
+   }
+
+   .page_one{
+             width: 100%;
+             height: 5%;
+   }
+
+   .life{
+             padding-bottom: 15%;
+   }
+   
+
+   /* page two */
+
+   .self_intro{
+             padding: 10%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+          }
+
+          .page_two{
+                    width: 100%;
+                    height: 190vh;
+          }
+
+          .myself p{
+               padding-top: 10%;
+          }
+
+          .myself h1{
+                    padding-top: 10%;
+          }
+
+          .hand img{
+                    width: 50vw;
+                    padding-top: 20%;
+                    padding-bottom: 10%;
+          }
+
+          /* page three */
+
+          .page_three{
+                height: 240vh;
+          }
+
+          .idol img{
+                    width: 40vw;
+                    padding-top: 50%;    
+          }
+
+          .sports_like{
+                    padding-top: 15%;
+          }
+
+          .sports_like h1{
+                    padding-bottom: 10%;
+          }
+
+          .sports_like p{
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    padding-right: 10%;
+          }
+
+          .sports_message{
+                    padding-bottom: 15%;
+          }
+
+          /* page four */
+
+          .school_marquee{
+                    padding-top: 6%;
+          }
+
+          .rank{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+
+          .percentage h1{
+                    padding-bottom: 1%;
+                    padding-top: 2%;
+                    max-width: 600px;
+                    padding-left: 5%;
+                    font-size: calc(60px);
+          }
+
+          .percentage p{
+                    padding-left: 6%;
+                    font-size: calc(38px);
+          }
+
+          .totalMarks{
+                    padding-bottom: 10%;
+          }
+
+          .rank_img img{
+                    width: 60vw;
+                    padding-bottom: 6%;
+                    padding-right: 20%;
+                    margin-top: 10%;
+          }
+
+          /* page five */
+
+          .page_five{
+                    width: 100%;
+                    height: 150vh;
+          }
+
+          .work_compass{
+                    padding: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 18%;
+          }
+
+          .worked h1{
+                    padding-top: 10%;
+                    padding-bottom: 8%;
+                    font-size: calc(80px);
+          }
+
+          .worked p{
+                    padding-bottom: 10%;
+                    font-size: calc(33px);
+          }
+
+          .myWork{
+                 display: none;
+          }
+
+
+          .compass svg{
+                    width: 60vw;
+                   padding-right: 20%;
+                   margin-top: 8%;
+                   
+          }
+
+
+          .myWork a{
+                    padding-right: 20%;         
+          }
+
+          .mail a{
+                font-size: 20px;
+          }
+
+          /* footer */
+
+          .know_more{
+                    padding-top: 2%;
+          }
+}
+
+
+/* max-width: 1382px */
+
+@media screen and (min-width:1024px) and (max-width:1382px){
+
+
+      /* loading page */
+
+      .loadingPage{
+           
+     }
+
+
+         /* page one */
+
+         .header-parts{
+               background: yellow;
+         }
+
+         
+  .img_name{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+  }
+
+  .profile_img img{
+            width: 35vw;
+            padding-top: 30%;
+  }
+
+  .name{
+            text-align: center;
+            padding-top: 14%;
+            display: flex;
+  }
+
+  .name h1{
+            font-size: calc(6vw);
+            transform: rotate(-90deg);
+            
+  }
+
+  .name marquee{
+        font-size: calc(5vw);
+  }
+
+  .page_one{
+            width: 100%;
+            height: 5%;
+  }
+
+  .life{
+            padding-bottom: 15%;
+  }
+  
+
+  /* page two */
+
+  .self_intro{
+            padding: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .page_two{
+                   width: 100%;
+                   height: 210vh;
+         }
+
+         .myself p{
+              padding-top: 10%;
+         }
+
+         .myself h1{
+                   padding-top: 10%;
+         }
+
+         .hand img{
+                   width: 40vw;
+                   padding-top: 20%;
+                   padding-bottom: 10%;
+         }
+
+         /* page three */
+
+         .page_three{
+               height: 310vh;
+         }
+
+         .idol img{
+                   width: 40vw;
+                   padding-top: 50%;    
+         }
+
+         .sports_like{
+                   padding-top: 5%;
+         }
+
+         .sports_like h1{
+                   padding-bottom: 10%;
+         }
+
+         .sports_like p{
+                   padding-top: 10%;
+                   padding-bottom: 10%;
+                   padding-right: 10%;
+         }
+
+         .sports_message{
+                   padding-bottom: 15%;
+         }
+
+         /* page four */
+
+         .school_marquee{
+                   padding-top: 0%;
+         }
+
+         .rank{
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+         }
+
+         .percentage h1{
+                   padding-bottom: 1%;
+                   padding-top: 2%;
+                   max-width: 800px;
+                   padding-left: 5%;
+                   font-size: calc(80px);
+         }
+
+         .percentage p{
+                   padding-left: 6%;
+                   font-size: calc(45px);
+         }
+
+         .totalMarks{
+                   padding-bottom: 10%;
+         }
+
+         .rank_img img{
+                   width: 50vw;
+                   padding-bottom: 6%;
+                   padding-right: 20%;
+                   margin-top: 10%;
+         }
+
+         /* page five */
+
+         .page_five{
+                   width: 100%;
+                   height: 180vh;
+         }
+
+         .work_compass{
+                   padding: 10%;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   padding-left: 18%;
+         }
+
+         .worked h1{
+                   padding-top: 0%;
+                   padding-bottom: 8%;
+                   font-size: calc(80px);
+         }
+
+         .worked p{
+                   padding-bottom: 10%;
+                   font-size: calc(33px);
+         }
+
+         .myWork{
+                
+         }
+
+
+         .compass svg{
+                   width: 80vw;
+                  padding-right: 20%;
+                  
+         }
+
+
+         .myWork a{
+                   padding-right: 20%;         
+         }
+
+         .mail a{
+               font-size: 20px;
+         }
+
+         /* footer */
+
+         .know_more{
+                   padding-top: 2%;
+         }
+}
+
+
+
+/* max-width: 1824px */
+
+@media screen and (min-width:1382px) and (max-width:1824px){
+
+
+      /* loading page */
+
+      .loadingPage{
+           
+     }
+
+
+         /* page one */
+
+         .header-parts{
+               background: gainsboro;
+         }
+
+         .nameMarquee marquee{
+               padding-top: 5%;
+         }
+
+         /* page three */
+
+         .sports_info{
+               margin-top: 15%;
+         }
+
+         .sports_message{
+               margin-bottom: 5%;
+         }
+
+         /* page four */
+
+         .totalMarks p{
+               font-size: calc(3vw);
+         }
+
+         /* page 5 */
+
+         .worked p{
+               font-size: calc(2.6vw);
+               margin-top: 15%;
+         }
+
+         
+          .page_five{
+                width: 100%;
+                height: 110vh;
+                overflow: hidden;
+}
+}
+

@@ -7,7 +7,8 @@
 .page_two{
           width: 100%;
           height: 160vh;
-          background: palevioletred;
+          background: #007FFF;
+          overflow: hidden;
 }
 
 .who{
@@ -18,8 +19,14 @@
 .who marquee{
           font-size: calc(18px + 6vw);
           border-top: 2px solid rgb(255, 255, 255);
-          border-bottom: 2px solid rgb(255, 255, 255);
+          border-bottom: 20px solid rgb(255, 255, 255);
           color: white;
+          transition: 0.5s ease-in-out;
+}
+
+.who marquee:hover{
+          border-top: 50px solid rgb(0, 0, 0);
+          border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 .self_intro{
@@ -33,15 +40,39 @@
 .myself h1{
           font-size: calc( 18px + 6vw);
           max-width: 600px;     
-          color: #C0FF02;  
+          color: #ffffff; 
+          transition: 0.5s ease-in-out; 
+}
+
+.myself h1:hover{
+        color: black;
+        background: rgba(255, 255, 255, 0.428);
 }
 
 .myself p{
      font-size: calc(18px + 2vw);
      max-width: 750px;
      color: white;
+     transition: 0.5s ease-in-out;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+.myself p:hover{
+        color: black;
 }
 
 .hand img{
-        width: 25vw;
+        width: 35vw;
+        border-radius: 6px;
+        transition: 1s ease-in-out;
+        filter: grayscale(60%);
+}
+
+.hand{
+        overflow: hidden;
+        border-radius: 6px;
+}
+
+.hand img:hover{
+      transform: scale(1.2);
 }

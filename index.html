@@ -4,7 +4,7 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Portfolio</title>
+          <title>ナレン (naren)</title>
           <link rel="stylesheet" href="headerStyle.css">
           <link rel="stylesheet" href="pageOne.css">
           <link rel="stylesheet" href="pageTwo.css">
@@ -14,10 +14,20 @@
           <link rel="stylesheet" href="footer.css">
           <link rel="stylesheet" href="mediaQuery.css">
           <link rel="stylesheet" href="transition.css">
+          <link rel="stylesheet" href="scrollbar.css">
+          <link rel="stylesheet" href="loadingPage.css">
+          <link rel="stylesheet" href="cursor.css">
+          <!-- <iframe width="0" height="0" src="./music/Butterfly.mp3" frameborder="0" allowfullscreen></iframe> -->
           <link rel="preconnect" href="https://fonts.gstatic.com">
-          <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+        <!-- <audio controls>
+                <source src="./music/Butterfly.mp3" type="audio/ogg">
+              </audio> -->
+
+        <div class="mouse"></div>
 
           <div class="container">
                     <div class="header">
@@ -25,15 +35,15 @@
                                         <div class="logo">
                                                   <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <g id="logo">
-                                                            <path id="large-circle" d="M59.0729 37.4004C57.8559 42.1814 55.4786 46.5886 52.1515 50.2314C48.8245 53.8742 44.6503 56.6403 39.9989 58.2847C35.3475 59.929 30.3623 60.4008 25.485 59.6583C20.6076 58.9158 15.9887 56.9819 12.0373 54.0279C8.08587 51.0739 4.92396 47.191 2.83163 42.7232C0.739288 38.2553 -0.21889 33.3404 0.0419641 28.4138C0.302819 23.4872 1.77465 18.7009 4.3271 14.479C6.87954 10.2571 10.4338 6.72977 14.6751 4.20957L30 30L59.0729 37.4004Z" fill="#C4C4C4"/>
-                                                            <circle id="mini-circle" cx="30" cy="30" r="15" fill="#C0FF02"/>
+                                                            <path id="large-circle" d="M59.0729 37.4004C57.8559 42.1814 55.4786 46.5886 52.1515 50.2314C48.8245 53.8742 44.6503 56.6403 39.9989 58.2847C35.3475 59.929 30.3623 60.4008 25.485 59.6583C20.6076 58.9158 15.9887 56.9819 12.0373 54.0279C8.08587 51.0739 4.92396 47.191 2.83163 42.7232C0.739288 38.2553 -0.21889 33.3404 0.0419641 28.4138C0.302819 23.4872 1.77465 18.7009 4.3271 14.479C6.87954 10.2571 10.4338 6.72977 14.6751 4.20957L30 30L59.0729 37.4004Z" fill="#C0FF02"/>
+                                                            <circle id="mini-circle" cx="30" cy="30" r="15" fill="white"/>
                                                             <line id="middle-line" x1="36.0416" y1="30.5" x2="24" y2="30.5" stroke="black"/>
                                                             </g>
                                                             </svg>
                                         </div>
                         
                                         <div class="github_btn">
-                                                <a href="">Github</a>
+                                                <a href="https://github.com/naren67" target="_blank">Github</a>
                                         </div>
                               </div>
                         </div>
@@ -45,8 +55,10 @@
                                                  <img src="./images/profile.jpg" alt="">
                                        </div>
                                        <div class="name">
-                                                 <h1>NaReN</h1>
-                                                 <marquee behavior="scroll" direction="">name</marquee>
+                                                 <h1 class="Name">ナレン <span class="spanName">naren</span></h1>
+                                                <div class="nameMarquee">
+                                                        <marquee behavior="scroll" direction="">name</marquee>
+                                                </div>
                                        </div>
                                </div>
 
@@ -81,7 +93,7 @@
                                              </p>
                                         </div>
                                         <div class="hand">
-                                                <img src="./images/profile.jpg" alt="">
+                                                <a href="https://en.wikipedia.org/wiki/Sadras"  target="_blank"><img src="./images/place.jpg" alt=""></a>
                                         </div>
                                </div>
                         </div>
@@ -90,7 +102,15 @@
                             <div class="sports_info">
 
                                     <div class="idol">
-                                         <img src="./images/sports.jpg" alt="">
+                                        <div class="glitch">
+                                                <img src="./images/sports.jpg" alt="">
+                                                <div class="glitch__layers">
+                                                        <div class="glitch__layer"></div>
+                                                        <div class="glitch__layer"></div>
+                                                        <div class="glitch__layer"></div>
+                                                </div>
+                                        </div>
+                                        
                                     </div>
 
                                     <div class="sports_like">
@@ -130,7 +150,7 @@
                                                           </div>
                                                 </div>
                                                 <div class="rank_img">
-                                                        <img src="./images/sports.jpg" alt="">
+                                                        <img src="./images/whiteEye.png" alt="">
                                                 </div>
                                         </div>
 
@@ -148,7 +168,10 @@
                                            Bangalore for 8 months
                                            in a company called
                                            TOYOTA</p>
-                                           <a href="">nareneelak@gmail.com</a>
+                                           
+                                           <div class="mail">
+                                                <a href="mailto:nareneelak@gmail.com" target="_blank">nareneelak@gmail.com</a>
+                                           </div>
                                       </div>
                                       <div class="compass">
                                         <svg width="200" height="229" viewBox="0 0 200 229" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,17 +192,53 @@
                                 </div>
 
                                 <div class="myWork">
-                                        <a href="">My work</a>
+                                        <a target="_blank">My work</a>
                                 </div>
 
                         </div>
                         
                         <div class="footer">
                                 <div class="know_more">
-                                        <a href="">Visit next page</a>
+                                         <a href="https://www.instagram.com/naren678n/" target="_blank"><img src="./images/insta.png" alt=""></a>
+                                         <a href="https://in.pinterest.com/naren678n/_saved/" target="_blank"><img src="./images/pin.png" alt=""></a>
+                                         <a href="https://twitter.com/naren678n" target="_blank"><img src="./images/twiter.png" alt=""></a>
+                                         <a href="https://dev.to/naren67" target="_blank"><img src="./images/dev.png" alt=""></a>
                                 </div>
                         </div>
           </div>
+
+          <!-- loading screen -->
+          
+          <div class="loadingPage">
+                  
+           <div class="loader">
+               <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="outer-logo">
+                        <circle id="end-circle" cx="75" cy="75" r="46" stroke="#C0FF02" stroke-width="8" />
+                        <circle id="center-circle" cx="75.5" cy="75.5" r="12.5" fill="#C0FF02" />
+                        <line id="center-line" x1="140" y1="75.5" x2="10" y2="75.5" stroke="black" />
+                        <line id="cross-line" x1="0.646447" y1="149.139" x2="149.139" y2="0.646441" stroke="black" />
+                 </g>
+                </svg>
+               </div>
+
+               <div class="blueSlider">
+                       <p>Improve</p>
+                 </div>
+                   <div class="limeSlider">
+                        <p>Adapt</p>
+                   </div>
+                     <div class="pinkSlider">
+                          <p>Overcome.</p>
+                   </div>
+          </div>
+
+          <!-- gsap 3 -->
+
+          <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+          <script src="gsapPageOne.js"></script>
+          <script src="loadingPageGsap.js"></script>
+          <script src="mouse.js"></script>
           
 </body>
 </html>
