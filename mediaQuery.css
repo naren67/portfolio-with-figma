@@ -4,9 +4,12 @@
           box-sizing: border-box;
 }
 
+
+
+
 /* max width 480px */
 
-@media screen and (max-width:360px) and (max-width:480px){
+@media screen and (min-width:360px) and (max-width:480px){
 
 
       /* loading page */
@@ -15,12 +18,130 @@
             
       }
 
+      /* logo */
+
+      .logo svg{
+            width: 50px;
+            margin-top: 2%;
+            margin-left: 10%;
+      }
+
+
+      /* hamburger menu */
+       
+      .github_btn{
+            display: none;
+      }
+
+      .hamburger{
+            width: 30px;
+            display: block;
+            cursor: pointer;
+       
+            background: none;
+            outline: none;
+            margin-right: 10%;
+            border: none;
+            transform: rotate(-20deg);
+      }      
+
+
+      .hamburger .bar, .hamburger::before, .hamburger::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 5px;
+            background: rgb(0, 0, 0);
+            margin-top: 6px;
+            transition: 0.5s ease-in-out;
+      } 
+
+      .hamburger.is-active::before{
+            transform: rotate(90deg) translateY(18px) translateX(15px);
+      }
+      
+      .hamburger.is-active::after{
+       transform: rotate(-90deg) translateY(18px) translateX(15px);
+      }
+
+      .hamburger.is-active .bar{
+            transform: rotate(170deg);
+            
+      }
+
+      .nav-menu{
+            position: fixed;
+            top: 0%;
+            left: 100%;
+            display: block;
+            z-index: 99;
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 20vh;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: 0.4s ease-in;
+      }
+
+      .nav-menu.is-active{
+            left: 0%;
+      }
+
+      .buttonOne{
+            background: rgb(0, 0, 0);
+            display: block;
+            width: 30%;
+            margin-bottom: 10px;
+            transition: 0.5s ease-in-out;
+      }
+
+      .buttonOne a{
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            text-decoration: none;
+      }
+
+      .buttonOne:hover{
+       width: 33%;
+  }
+
+      .buttonTwo{
+       background: rgb(0, 0, 0);
+       display: block;
+       width: 30%;
+       color: white;
+       transition: 0.5s ease-in-out;
+      }
+
+      .buttonTwo a{
+       padding: 10px 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       font-family: 'Courier New', Courier, monospace;
+       text-decoration: none;
+      }
+
+      .buttonTwo:hover{
+           width: 33%;
+      }
+    
+
+
 
           /* page one */
 
-          .header-parts{
-                background: white;
-          }
+          /* .header-parts{
+                background: rgb(255, 60, 60);
+          } */
 
           
    .img_name{
@@ -222,14 +343,136 @@
             
       }
 
+       /* logo */
+
+       .logo svg{
+            width: 55px;
+            margin-top: 5%;
+            margin-left: 10%;
+      }
+
 
           /* page one */
 
-          .header-parts{
+          /* .header-parts{
                 background: pink;
-          }
+          } */
 
+            /* handburger */
           
+          .github_btn{
+                display: none;
+          }
+          
+           .hamburger{
+                 width: 32px;
+                 display: block;
+                 cursor: pointer;
+            
+                 background: none;
+                 outline: none;
+                 margin-right: 6%;
+                 border: none;
+                 transform: rotate(-20deg);
+           }      
+     
+
+           .hamburger .bar, .hamburger::before, .hamburger::after{
+                 content: '';
+                 display: block;
+                 width: 100%;
+                 height: 5px;
+                 background: rgb(0, 0, 0);
+                 margin-top: 6px;
+                 transition: 0.5s ease-in-out;
+           } 
+
+           .hamburger.is-active::before{
+                 transform: rotate(90deg) translateY(18px) translateX(15px);
+           }
+           
+           .hamburger.is-active::after{
+            transform: rotate(-90deg) translateY(18px) translateX(15px);
+           }
+
+           .hamburger.is-active .bar{
+                 transform: rotate(170deg);
+                 
+           }
+
+           .nav-menu{
+                 position: fixed;
+                 top: 0%;
+                 left: 100%;
+                 display: block;
+                 z-index: 99;
+                 background: rgb(255, 255, 255);
+                 width: 100%;
+                 height: 20vh;
+                 margin-top: 80px;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 transition: 0.4s ease-in;
+           }
+
+           .nav-menu.is-active{
+                 left: 0%;
+           }
+
+           .buttonOne{
+                 background: rgb(0, 0, 0);
+                 display: block;
+                 width: 25%;
+                 margin-bottom: 10px;
+                 transition: 0.5s ease-in-out;
+           }
+
+           .buttonOne a{
+                 padding: 10px 20px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 font-family: 'Courier New', Courier, monospace;
+                 color: white;
+                 text-decoration: none;
+           }
+
+           .buttonOne:hover{
+            width: 27%;
+       }
+
+           .buttonTwo{
+            background: rgb(0, 0, 0);
+            display: block;
+            width: 25%;
+            color: white;
+            transition: 0.5s ease-in-out;
+           }
+
+           .buttonTwo a{
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+           }
+
+           .buttonTwo:hover{
+                width: 27%;
+           }
+         
+
+
+           
+
+            
+
+
+
    .img_name{
              display: flex;
              flex-direction: column;
@@ -366,7 +609,7 @@
 
           .page_five{
                     width: 100%;
-                    height: 130vh;
+                    height: 125vh;
           }
 
           .work_compass{
@@ -428,13 +671,28 @@
             
       }
 
+      /* handburger */
+
+      .handburger{
+           display: none;
+       }
+
 
           /* page one */
 
-          .header-parts{
+          /* .header-parts{
                 background: greenyellow;
-          }
+          } */
 
+                /* handburger */
+
+       .hamburger{
+            display: none;
+      }
+
+      .nav-menu{
+            display: none;
+      }
           
    .img_name{
              display: flex;
@@ -573,7 +831,7 @@
 
           .page_five{
                     width: 100%;
-                    height: 130vh;
+                    height: 140vh;
           }
 
           .work_compass{
@@ -637,13 +895,29 @@
             
       }
 
+        /* handburger */
+
+        .handburger{
+            display: none;
+        }
+ 
+
 
           /* page one */
 
-          .header-parts{
+          /* .header-parts{
                 background: rgb(255, 0, 0);
-          }
+          } */
 
+                /* handburger */
+
+       .hamburger{
+            display: none;
+      }
+
+      .nav-menu{
+            display: none;
+      }
           
    .img_name{
              display: flex;
@@ -783,7 +1057,7 @@
 
           .page_five{
                     width: 100%;
-                    height: 150vh;
+                    height: 145vh;
           }
 
           .work_compass{
@@ -846,11 +1120,26 @@
            
      }
 
+       /* handburger */
+
+       .handburger{
+            display: none;
+        }
+ 
+
 
          /* page one */
 
-         .header-parts{
+         /* .header-parts{
                background: yellow;
+         } */
+
+         .hamburger{
+               display: none;
+         }
+
+         .nav-menu{
+               display: none;
          }
 
          
@@ -991,7 +1280,7 @@
 
          .page_five{
                    width: 100%;
-                   height: 180vh;
+                   height: 140vh;
          }
 
          .work_compass{
@@ -1054,12 +1343,23 @@
            
      }
 
+       /* handburger */
+
+       .hamburger{
+            display: none;
+      }
+
+      .nav-menu{
+            display: none;
+      }
+ 
+
 
          /* page one */
 
-         .header-parts{
+         /* .header-parts{
                background: gainsboro;
-         }
+         } */
 
          .nameMarquee marquee{
                padding-top: 5%;
@@ -1091,7 +1391,7 @@
          
           .page_five{
                 width: 100%;
-                height: 110vh;
+                height: 100vh;
                 overflow: hidden;
 }
 }

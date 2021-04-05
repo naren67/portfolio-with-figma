@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
 }
 
 .logo{
@@ -43,32 +43,43 @@ body{
     font-family:fantasy;
 }
 
+/* button */
+
 .github_btn{
-          background: #ffffff;
-          margin-right: 3%;
-          padding: 0.8% 1.8%;
-          display: inline-block;
-          cursor: pointer;
-          border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 3%;
 }
 
-.github_btn:hover{
-    background: #C0FF02;
-    color: rgb(0, 0, 0);
-}
 
-.github_btn a{
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.5s ease-in-out;
-    border-radius: 10px;
+.button-one{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
     font-family: 'Courier New', Courier, monospace;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
 }
-    
 
-.github_btn a:hover{
-    color: rgb(0, 0, 0);
+.button-two{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid black;
+    margin-top: 0.5%;
+}
+
+.button-one a, .button-two a{
+    text-decoration: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-menu{
+    display: none;
 }
 

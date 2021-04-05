@@ -64,7 +64,7 @@
           border-top: 20px solid #007FFF;
           border-bottom: 2px solid #007FFF;
           transition: 0.5s ease-in-out;
-
+          transform: rotate(180deg);
 }
 
 .sports_message marquee:hover{
@@ -98,7 +98,7 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-image: url(./images/sports.jpg);
+	background-image: url(./images/mercury.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -111,7 +111,7 @@
 	animation: glitch-anim-2 2.3s -.8s infinite linear alternate;
 }
 .glitch__layer:nth-child(3) {
-	transform: translateX(5%);
+	transform: translateX(-5%);
 	animation: glitch-anim-flash 1s infinite linear;
 }
 @keyframes glitch-anim-1 {
@@ -122,7 +122,7 @@
 		clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
 	}
 	20% {
-		clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+		clip-path: polygon(0 60%, 100% 60%, 100% 20%, 0 20%);
 	}
 	30% {
 		clip-path: polygon(0 1%, 100% 1%, 100% 2%, 0 2%);
