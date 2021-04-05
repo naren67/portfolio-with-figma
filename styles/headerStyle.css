@@ -62,17 +62,37 @@ body{
     border-top: 1px solid black;
 }
 
+.button-one:hover{
+    background: black;
+    color: white;
+}
+
+.button-one a:hover{
+    color: white;
+}
+
 .button-two{
     display: inline-block;
     padding: 10px 20px;
     background: white;
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 1px solid black;
-    margin-top: 0.5%;
+    margin-top: 0%;
+}
+
+
+.button-two:hover{
+    background: black;
+    color: white;
+}
+
+.button-two a:hover{
+    color: white;
 }
 
 .button-one a, .button-two a{
     text-decoration: none;
+    color: black;
 }
 
 .hamburger{
