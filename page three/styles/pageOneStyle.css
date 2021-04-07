@@ -1,0 +1,72 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+
+.pageOne{
+          max-width: 100%;
+          height: 100vh;
+          position: relative;
+          width: 100%;
+          background: gainsboro;
+          overflow: hidden;
+}
+
+.mobileView{
+          display: none;
+}
+
+.pageOne svg{
+          width: 150vw;
+}
+
+.svgOne{
+          position: absolute;
+          top: -400px;
+          right: -400px;
+}
+
+.svgTwo{
+          position: absolute;
+          top: -100px;
+          right: 300px;
+}
+
+.svgTwo svg{
+          width: 900px;
+}
+
+/* animation */
+
+#inspired{
+          animation: inspire 100s infinite linear;
+          transform-origin: center;
+          transform-box: fill-box;
+}
+
+@keyframes inspire {
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(360deg);
+          }
+}
+
+#softwares{
+          animation: software 50s infinite linear;
+          transform-origin: center;
+          transform-box: fill-box;
+}
+
+@keyframes software {
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(-360deg);
+          }
+}
+  

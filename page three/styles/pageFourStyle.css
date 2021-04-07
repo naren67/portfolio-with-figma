@@ -1,0 +1,169 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.pageFour{
+          width: 100%;
+          background: rgba(95, 158, 160, 0.421);
+          height: 280vh;
+}
+
+.cloneTopic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.cloneTopic p{
+  font-size: calc(20px + 0.3vw);
+  background: yellow;
+  padding: 10px 20px;
+}
+
+
+
+.uTubePage{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+}
+
+.uTubeLink{
+          overflow: hidden;
+}
+
+.uTubeLink a img{
+          width: 40vw;
+          display: inline-block;
+          margin-top: 20%;
+          transition: 0.5s;
+}
+
+.uTubeLink a img:hover{
+         transform: scale(1.1);
+}
+
+.uTubeDetail{
+          margin-left: 5%;
+}
+
+.uTubeDetail h1{
+          color: yellow;
+          margin-bottom: 1%;      
+}
+
+.uTubeDetail p{
+          color: rgb(255, 255, 255);
+          max-width: 500px;
+          font-size: calc(18px + 0.02vw);
+          
+}
+
+/* airbnb */
+
+
+.airbnbLink a img{
+          width: 40vw; 
+          display: inline-block;
+          margin-top: 20%;
+          transition: 0.5s;
+}
+
+.airbnbLink a img:hover{
+          transform: scale(1.1);
+}
+
+
+.airbnbPage{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; 
+          flex-wrap: wrap;
+}
+
+.airbnbLink{
+          margin-left: 2%;
+          overflow: hidden;
+}
+
+.airbnbDetail h1{
+          color: yellow;
+          margin-bottom: 1%; 
+}
+
+.airbnbDetail p{
+          color: rgb(255, 255, 255);
+          max-width: 500px;
+          font-size: calc(18px + 0.02vw);
+}
+
+/* g drive */
+
+.gDrivePage{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; 
+          flex-wrap: wrap;
+}
+
+.gDriveLink{
+          overflow: hidden;
+}
+
+.gDriveLink a img{
+          width: 40vw; 
+          display: inline-block;
+          margin-top: 20%;
+          transition: 0.5s;
+}
+
+.gDriveLink a img:hover{
+          transform: scale(1.1);
+}
+
+.gDriveDetail h1{
+          color: yellow;
+          margin-left: 10%; 
+          margin-bottom: 1%;
+}
+
+.gDriveDetail p{
+          color: rgb(255, 255, 255);
+          max-width: 500px;
+          font-size: calc(18px + 0.02vw);
+          margin-left: 10%; 
+          margin-bottom: 20%;
+}
+
+/* atm card */
+
+
+.atmCard{
+          width: 100%;
+          text-align: center;
+          margin-top: 10%;
+        }
+        
+        
+        .atmCard a{
+                  background-color: rgba(103, 102, 102, 0.292);
+                  color: white;
+                  padding: 20px 30px;
+                  text-decoration: none;
+                  border-radius: 5px;
+                  font-size: 20px;
+        }
+        
+        .atmCard a:hover{   
+                  background: gainsboro;
+                  color: black;
+        }
+
+        

@@ -195,6 +195,7 @@
           .page_two{
                     width: 100%;
                     height: 120vh;
+                    overflow: hidden;
           }
 
           .myself p{
@@ -215,6 +216,7 @@
 
           .page_three{
                 height: 160vh;
+                overflow: hidden;
           }
 
           .idol img{
@@ -311,13 +313,17 @@
           .compass svg{
                     width: 60vw;
                    padding-right: 20%;
-                   margin-top: 20%;
+                   margin-top: 10%;
                    
           }
 
 
           .myWork a{
                     padding-right: 20%;         
+          }
+
+          .mail{
+               transform: translateX(-30px);
           }
 
           .mail a{

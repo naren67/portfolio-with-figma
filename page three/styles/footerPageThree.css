@@ -1,0 +1,9 @@
+
+.footer{
+          width: 100%;
+          text-align: center;
+          height: 10vh;
+          display: grid;
+          place-items: center;
+          background: ghostwhite;
+}
