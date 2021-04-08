@@ -17,6 +17,7 @@
         position: fixed;
         top:15%;
         right: 5%;
+        z-index: 5;
 }
 
 .resume a{
@@ -24,6 +25,11 @@
           text-decoration: none;
           color: rgb(0, 0, 0);
           padding: 8px 10px;
+          transition: 0.5s;
+}
+
+.resume a:hover{
+        background: rgba(222, 184, 135, 0.639);
 }
 
 .secondIcons, .detailsTwo{
