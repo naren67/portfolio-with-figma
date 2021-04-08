@@ -4,6 +4,7 @@
           box-sizing: border-box;
 }
 
+
 ::-webkit-scrollbar, ::-webkit-scrollbar-thumb{
           display: none;
 }

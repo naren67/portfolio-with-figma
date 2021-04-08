@@ -142,28 +142,11 @@
           margin-bottom: 20%;
 }
 
-/* atm card */
+/* tinder clone */
 
 
-.atmCard{
-          width: 100%;
-          text-align: center;
-          margin-top: 10%;
-        }
-        
-        
-        .atmCard a{
-                  background-color: rgba(103, 102, 102, 0.292);
-                  color: white;
-                  padding: 20px 30px;
-                  text-decoration: none;
-                  border-radius: 5px;
-                  font-size: 20px;
-        }
-        
-        .atmCard a:hover{   
-                  background: gainsboro;
-                  color: black;
-        }
-
-        
+.tinderDetail{
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
