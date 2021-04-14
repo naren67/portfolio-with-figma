@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,48 +9,68 @@
           <link rel="stylesheet" href="./style.css">
           <link rel="preconnect" href="https://fonts.gstatic.com">
           <link rel="shortcut icon" type="image" href="./image/title-lo.svg">
-          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@200;300;500;600;700;800&display=swap"
+                    rel="stylesheet">
 </head>
+
 <body>
           <div class="notice">
-                    <p>Click on the Marquee text</p>
+                    <p>Click on the <u>running</u> Marquee text</p>
                     <a href="../figma/index.html" target="_blank">Also check Figma works</a>
           </div>
           <div class="container">
+                    <div class="Amazon sec">
+                              <img src="./image/facebook.png" alt="">
+                              <a href="https://facebook-clone-8a1b7.web.app" target="_blank">
+                                        <marquee behavior="scroll" direction="right">reducer firebase react using clone
+                                                  facebook</marquee>
+                              </a>
+                    </div>
 
                     <div class="Netflix sec">
-                              <a href="https://serene-hamilton-8e0cea.netlify.app/" target="_blank"><marquee behavior="scroll" direction="left">Netflix clone front end design</marquee></a>
+                              <a href="https://serene-hamilton-8e0cea.netlify.app/" target="_blank">
+                                        <marquee behavior="scroll" direction="left">Netflix clone front end design
+                                        </marquee>
+                              </a>
                               <img src="./image/net.png" alt="">
                     </div>
 
                     <div class="Amazon sec">
                               <img src="./image/amazon.png" alt="">
-                              <a href="https://cranky-lamport-52fd43.netlify.app/" target="_blank"><marquee behavior="scroll" direction="right">end front clone Amazon</marquee></a> 
+                              <a href="https://cranky-lamport-52fd43.netlify.app/" target="_blank">
+                                        <marquee behavior="scroll" direction="right">end front clone Amazon</marquee>
+                              </a>
                     </div>
 
                     <div class="tinder sec">
-                              <a href="https://tinder-59045.web.app" target="_blank"><marquee behavior="scroll" direction="left">Tinder clone Mern stack</marquee></a>
+                              <a href="https://tinder-59045.web.app" target="_blank">
+                                        <marquee behavior="scroll" direction="left">Tinder clone Mern stack</marquee>
+                              </a>
                               <img src="./image/tinder.png" alt="">
                     </div>
 
                     <div class="Tiktok sec">
                               <img src="./image/tiktok.png" alt="">
-                              <a href="https://tiktok-clone-e078f.web.app" target="_blank"><marquee behavior="scroll" direction="right">stack Mern clone Tiktok</marquee></a> 
+                              <a href="https://tiktok-clone-e078f.web.app" target="_blank">
+                                        <marquee behavior="scroll" direction="right">stack Mern clone Tiktok</marquee>
+                              </a>
                     </div>
-                    
+
                     <div class="tinder sec">
-                              <a href="https://tinder-59045.web.app" target="_blank"><marquee behavior="scroll" direction="left">Some figma works</marquee></a>
+                              <a href="https://tinder-59045.web.app" target="_blank">
+                                        <marquee behavior="scroll" direction="left">Some figma works</marquee>
+                              </a>
                               <img src="./image/figma.png" alt="">
                     </div>
 
-                    
+
 
 
 
                     <svg viewBox="0 0 500 500">
-                                  
+
                               <style type="text/css">
-                                        .text{
+                                        .text {
                                                   text-transform: uppercase;
                                                   font-weight: bold;
                                                   fill: #E6E6E6;
@@ -57,7 +78,7 @@
                                         }
                               </style>
 
-                              <path id="our-text" fill="#fff" d="M39.5 34.5v425h422v-425H51.9"/>
+                              <path id="our-text" fill="#fff" d="M39.5 34.5v425h422v-425H51.9" />
 
                               <text y='40' font-size='30' font-family='Montserrat, Arial'>
                                         <textPath id='text-path' class="text" href='#our-text' startOffset='400'>
@@ -65,24 +86,25 @@
                                         </textPath>
                               </text>
                     </svg>
-                    
-                                        
+
+
           </div>
 
           <script>
                     var textpath = document.querySelector('#text-path')
 
-                    function updateLinePath(offset){
-                              textpath.setAttribute('startOffset',offset)
+                    function updateLinePath(offset) {
+                              textpath.setAttribute('startOffset', offset)
                     }
 
-                    function onScroll(){
-                              requestAnimationFrame(function(){
+                    function onScroll() {
+                              requestAnimationFrame(function () {
                                         updateLinePath(window.scrollY * 1.5)
                               })
                     }
 
-                    window.addEventListener('scroll',onScroll)
+                    window.addEventListener('scroll', onScroll)
           </script>
 </body>
+
 </html>
