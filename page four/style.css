@@ -103,3 +103,7 @@ svg {
     transform: translateX(0px);
   }
 }
+
+.tiktokRefresh{
+  font-size: 20px;
+}
