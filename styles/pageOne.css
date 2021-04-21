@@ -26,6 +26,19 @@
          border-radius: 20px;
 }
 
+.profile_img img{
+        animation: plane 3s linear infinite alternate-reverse;
+}
+
+@keyframes plane{
+        from{
+                transform: translateY(0px);
+        }
+        to{
+                transform: translateY(50px);
+        }
+}
+
 .name{
         display: flex;
         flex-direction: column;

@@ -22,4 +22,4 @@ gsap.from('.twoPtag',{opacity:0.5, duration:5, y:800, delay:1})
 //text animation third page
 
 gsap.from('.circular svg',{opacity:0.5, duration:9, x:800, delay:1})
-gsap.from('.button',{opacity:0.8, duration:9, y:800, delay:1})
+gsap.from('.button',{opacity:0.8, duration:7, y:800, delay:1})
