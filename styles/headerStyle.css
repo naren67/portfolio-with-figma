@@ -28,6 +28,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background: rgb(255, 255, 255);
+    padding: 5px;
 }
 
 .logo{
@@ -36,8 +37,7 @@ body{
 }
 
 .logo svg{
-    width: 20%;
-    height: 10vh;
+    width: 58px;
 }
 
 .spanName{
