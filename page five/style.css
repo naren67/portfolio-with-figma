@@ -28,9 +28,20 @@ body{
     top: 50px;
 }
 
-.figma:hover{
-          background: rgba(255, 255, 255, 0.503);
+.figma{
+    display: flex;
+    flex-direction: column;
 }
+
+.figma a{
+    padding: 8px 15px;
+    transition: 1s ease;
+}
+
+.figma a:nth-child(1){
+    border-bottom: 1px solid black;
+}
+
 
 .figma a{
           text-decoration: none;
