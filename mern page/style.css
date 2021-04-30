@@ -30,10 +30,15 @@ body{
 
 .header{
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
           justify-content: space-between;
           padding: 15px 20px;
           overflow: hidden;
+}
+
+#hamburger{
+    display: none;
 }
 
 .header p{
@@ -170,7 +175,7 @@ body{
 }
 
 .info{
-    padding: 6px 20px;
+    padding: 12px 20px;
 }
 
 /* footer */
@@ -202,6 +207,7 @@ body{
        width: 30px;
        transform: rotate(-90deg);
 }
+
 
 /* media query */
 
@@ -267,3 +273,45 @@ body{
 
 
 }
+
+
+/* hamburger navigation menu */
+
+@media only screen and (max-width:710px){
+    
+    #hamburger{
+        display: block;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #hamburger img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__links{
+        display: none;
+    }
+
+    #nav__options.show{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__links a:hover{
+        background: none;
+        color: black;
+    }
+   
+}
+
+/* @media only screen and (max-width: 647px){
+    .home__explore{
+        padding: 0xp 40px !important;
+    }
+} */
