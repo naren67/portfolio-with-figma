@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./styles/scrollbar.css">
         <link rel="stylesheet" href="./styles/loadingPage.css">
         <link rel="stylesheet" href="./styles/cursor.css">
+        <link rel="stylesheet" href="./styles/aos/aos.css">
         <link rel="shortcut icon" type="image" href="./images/title-logo.svg">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -104,12 +105,12 @@
                 </div>
 
                 <div class="page_two">
-                        <div class="who">
+                        <div class="who" data-aos="flip-up" data-aos-duration="1800">
                                 <marquee behavior="scroll" direction="right">Who am I. Who am I. Who am I.</marquee>
                         </div>
 
                         <div class="self_intro">
-                                <div class="myself">
+                                <div class="myself" data-aos="zoom-in-down" data-aos-duration="1400">
                                         <h1>
                                                 About my self
                                         </h1>
@@ -122,7 +123,7 @@
                                                 Sadras Dutch Fort
                                         </p>
                                 </div>
-                                <div class="hand">
+                                <div class="hand" data-aos="fade-left" data-aos-duration="1500">
                                         <a href="https://en.wikipedia.org/wiki/Sadras" target="_blank"><img
                                                         src="./images/place.jpg" alt=""></a>
                                 </div>
@@ -132,7 +133,7 @@
                 <div class="page_three">
                         <div class="sports_info">
 
-                                <div class="idol">
+                                <div class="idol" data-aos="fade-right">
                                         <div class="glitch">
                                                 <img src="./images/sports.jpg" alt="">
                                                 <div class="glitch__layers">
@@ -144,7 +145,7 @@
 
                                 </div>
 
-                                <div class="sports_like">
+                                <div class="sports_like" data-aos="zoom-in-left">
                                         <h1>SPORTS I LIKE</h1>
                                         <p>I like football very
                                                 much compared
@@ -157,8 +158,9 @@
 
                         </div>
 
-                        <div class="sports_message">
-                                <marquee behavior="scroll" direction="left">Cristiano Ronaldo moving back to real madrid
+                        <div class="sports_message" data-aos="flip-up">
+                                <marquee behavior="scroll" direction="left" data-aos-duration="2000">Cristiano Ronaldo
+                                        moving back to real madrid
                                         again stay tuned !</marquee>
                         </div>
                 </div>
@@ -167,7 +169,7 @@
 
                         <div class="rank_perentage">
 
-                                <div class="school_marquee">
+                                <div class="school_marquee" data-aos="flip-right" data-aos-duration="1400">
                                         <marquee behavior="scroll" direction="right">school. stress. desire. passion.
                                                 wakeup. homework. play. cry. sleep. funny. meme. lunch. dinner.
                                         </marquee>
@@ -175,15 +177,15 @@
 
                                 <div class="rank">
                                         <div class="percentage">
-                                                <h1>After spending
+                                                <h1 data-aos="fade-right" data-aos-duration="1400">After spending
                                                         20 years on academic.</h1>
-                                                <div class="totalMarks">
+                                                <div class="totalMarks" data-aos="fade-right" data-aos-duration="1600">
                                                         <p>Marks obtained</p>
                                                         <p>10th - 81 percentage</p>
                                                         <p>12th - 88% percentage</p>
                                                 </div>
                                         </div>
-                                        <div class="rank_img">
+                                        <div class="rank_img" data-aos="zoom-in-up" data-aos-duration="1500">
                                                 <img src="./images/whiteEye.png" alt="">
                                         </div>
                                 </div>
@@ -197,18 +199,19 @@
                         <div class="work_compass">
 
                                 <div class="worked">
-                                        <h1>Worked as a.</h1>
-                                        <p>Team Leader in
+                                        <h1 data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+                                                Worked as a.</h1>
+                                        <p data-aos="fade-left" data-aos-duration="1200">Team Leader in
                                                 Bangalore for 8 months
                                                 in a company called
                                                 TOYOTA</p>
 
-                                        <div class="mail">
+                                        <div class="mail" data-aos="fade-left" data-aos-duration="1300">
                                                 <a href="mailto:nareneelak@gmail.com"
                                                         target="_blank">nareneelak@gmail.com</a>
                                         </div>
                                 </div>
-                                <div class="compass">
+                                <div class="compass" data-aos="zoom-in-right" data-aos-duration="1300">
                                         <svg width="200" height="229" viewBox="0 0 200 229" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <g id="compass">
@@ -236,7 +239,7 @@
                 </div>
 
                 <div class="footer">
-                        <div class="know_more">
+                        <div class="know_more" data-aos="flip-up">
                                 <a href="https://www.instagram.com/naren678n/" target="_blank"><img
                                                 src="./images/insta.png" alt=""></a>
                                 <a href="https://in.pinterest.com/naren678n/_saved/" target="_blank"><img
@@ -293,7 +296,9 @@
         <script src="mouse.js"></script>
         <script src="hamburgerMenu.js"></script>
 
-
+        <!-- aos -->
+        <script src="./styles/aos/aos.js"></script>
+        <script src="./styles/aos.js"></script>
 
 </body>
 
