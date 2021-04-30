@@ -14,10 +14,19 @@ body{
           
 }
 
+   /* for chrome safari opera */
 ::-webkit-scrollbar{
-    width: 0px;
     display: none;
+    background: #00b9ff;
 }
+
+/* for Ie edge firefox */
+
+::-webkit-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 
 
 .header{
@@ -137,6 +146,7 @@ body{
     margin: 50px;
     border: 1px solid gainsboro;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .clone img{

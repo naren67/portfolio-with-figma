@@ -10,6 +10,20 @@ body{
 
 }
 
+   /* for chrome safari opera */
+   ::-webkit-scrollbar{
+    display: none;
+    background: #00b9ff;
+}
+
+/* for Ie edge firefox */
+
+::-webkit-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
 .container{
           width: 100%;
 }
