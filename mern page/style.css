@@ -10,8 +10,7 @@ html {
 
 body{
           font-family: 'Poppins', sans-serif;
-          margin: 0px auto;
-          
+          overflow-x: hidden;
 }
 
    /* for chrome safari opera */
@@ -34,7 +33,7 @@ body{
           align-items: center;
           justify-content: space-between;
           padding: 15px 20px;
-          width: 100%;
+          overflow: hidden;
 }
 
 .header p{
@@ -107,19 +106,21 @@ body{
 /* own container */
 
 .own__container{
-          width: 100%;
           height: auto;
+          overflow-x: hidden;
+          overflow: hidden;
+          padding-top: 50px;
 }
 
-.own__container p{
+.first__para{
     margin: 20px auto;
     text-align: center;
     font-size: 20px;
 }
 
 .own__css{
-    margin: 30px auto;
-    padding-left: 85px;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
 .own__content{
@@ -140,6 +141,7 @@ body{
     justify-content: center;
     width: 80%;
     margin: 0px auto;
+    overflow: hidden;
 }
 
 .clone{
@@ -193,6 +195,7 @@ body{
     outline: none;
     border: none;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .footer img{

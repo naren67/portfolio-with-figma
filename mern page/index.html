@@ -43,7 +43,7 @@
           </div>
 
           <div class="own__container">
-                    <p>Softwares I used</p>
+                    <p class="first__para">Softwares I used</p>
                     <div class="owl-carousel owl-theme own__css">
                               <div class="item own__content">
                                         <img src="./image/adobeI.png" alt="">
@@ -256,16 +256,20 @@
                               margin: 10,
                               nav: false,
                               autoplay: true,
+                              responsiveClass: true,
                               autoplayTimeout: 2000,
                               responsive: {
                                         0: {
                                                   items: 1
                                         },
+                                        481: {
+                                                  items: 2
+                                        },
                                         600: {
                                                   items: 3
                                         },
                                         1000: {
-                                                  items: 4
+                                                  items: 5
                                         }
                               }
                     })

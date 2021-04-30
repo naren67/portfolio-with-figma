@@ -6,7 +6,6 @@
           animation: big-line 5s infinite linear;
           transform-origin: center;
           transform-box: fill-box;
-  
   }
   
   @keyframes big-line{
