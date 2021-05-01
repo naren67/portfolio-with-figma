@@ -332,7 +332,7 @@ body{
    /* dom code */
     visibility: hidden;
     opacity: 0;
-    transition: 1s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 
