@@ -27,7 +27,7 @@ body{
           width: 33.33333333333333%;
           height: 100vh;
           background: #DDDEE3;
-          background-image: url(./image/1.png);
+          background-image: url(./image/water.jpg);
           background-size: cover;
           padding: 25px;
           color: white;
@@ -67,7 +67,7 @@ body{
           width: 33.33333333333333%;
           height: 100vh;
           background: chartreuse;
-          background-image: url(./image/2.png);
+          background-image: url(./image/mars.jpg);
           background-size: cover;
           padding: 25px;
           color: white;
@@ -108,7 +108,7 @@ body{
           width: 33.33333333333333%;
           height: 100vh;
           background: #DDDEE3;
-          background-image: url(./image/3.png);
+          background-image: url(./image/moon.jpg);
           background-size: cover;
           padding: 25px;
           color: white;
