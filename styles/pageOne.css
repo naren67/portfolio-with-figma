@@ -57,9 +57,11 @@
           transition: 0.5s ease-in-out;
 }
 
+
+
 .name h1{
           font-size: 3.8vw;
-          color: #fbfbfb;
+          color: #C0FF02;
           transform: rotate(-90deg);
           padding-left: 5%;
           padding-bottom: 20%;
@@ -67,6 +69,15 @@
           font-weight: 600;
           transition: 0.5s ease-in-out;
           font-family: 'Zilla Slab Highlight', cursive;
+}
+
+h1 span{
+        color: white;
+        transition: 0.5s ease;
+}
+
+h1 span:hover{
+        color: #C0FF02;
 }
 
 .name marquee:hover{
