@@ -1,0 +1,138 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+          font-family: sans-serif;
+          overflow-x: hidden;
+  }
+
+  header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 20px;
+            background: rgb(255, 255, 255);
+            align-items: center;
+  }
+
+  header p{
+            font-size: 25px;
+            font-weight: bolder;
+  }
+
+  header a{
+            background: black;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.5s ease;
+  }
+
+  header a:hover{
+            background: rgba(0, 0, 0, 0.238);
+            color: rgb(0, 0, 0);
+  }
+
+  .banner{
+            width: 100%;
+            height: 80vh;
+            object-fit: cover;
+            background-image: url(./image/keagan-henman-IEEpZnxOoJI-unsplash.jpg);
+            display: grid;
+            place-items: center;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: opacity(0.9);
+  }
+
+  .banner a{
+            font-size: 22px;
+            color: black;
+            background: white;
+            padding: 10px 20px;
+            text-decoration: none;
+  }
+
+  .banner a:hover{
+            background: gainsboro;
+            color: black;
+  }
+
+  .topic{
+            width: 100%;
+            font-weight: lighter;
+            font-size: 28px;
+            text-align: center;
+            padding: 30px 0px;
+  }
+
+  .css__links{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 0.8fr 0.8fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 120px;
+            padding: 100px;
+  }
+
+  .box{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(0, 0, 0, 0.272);
+            overflow: hidden;
+  }
+
+  .git__link{
+          overflow: hidden;
+  }
+
+  .git__link img{
+            width: 100%;
+            padding-top: 10px;
+            transition: 1s ease-out;
+            overflow: hidden;
+  }
+
+  .git__link img:hover{
+            transform: scale(1.2);
+  }
+
+  .box p{
+            padding: 20px 0px;
+            font-weight: lighter;
+            font-size: 18px;
+  }
+
+  /* media query */
+
+  @media only screen and (max-width:950px) {
+        .css__links{
+                grid-template-columns: 1fr;
+      }
+
+
+}
+
+
+@media only screen and (max-width:472px) {
+        .css__links{
+                grid-template-columns: 1fr;
+                padding: 30px;
+      }
+
+
+}
+
