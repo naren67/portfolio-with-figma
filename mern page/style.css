@@ -180,6 +180,10 @@ body{
     padding: 12px 20px;
 }
 
+.info p:nth-child(1){
+    padding-top: 20px;
+}
+
 /* footer */
 
 .footer{
