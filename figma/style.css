@@ -79,3 +79,46 @@ p {
      width:100%;
   }
 }
+
+
+.mobile{
+  width: 100%;
+}
+
+.mobile__images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 570px){
+  .mobile__images{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .mobile__images img{
+    width: 80%;
+  }
+
+  
+}
+
+.UIUX a{
+  display: inline-block;
+  background: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 16px;
+  transition: 0.5s ease-in;
+}
+
+.UIUX a:hover{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
