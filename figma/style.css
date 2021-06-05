@@ -15,6 +15,11 @@ body {
   background: black;
 }
 
+.book__color{
+  background: #6C63FF !important;
+  color: white;
+}
+
 img {
   width: 100%;
   padding: 20px;

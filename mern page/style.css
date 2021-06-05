@@ -49,14 +49,15 @@ body{
 .header__links a{
           text-decoration: none;
           font-size: 16px;
-          color: black;
+          color: rgb(255, 255, 255);
+          background: black;
           transition: 0.5s ease-in;
           padding: 10px 15px;
 }
 
 .header__links a:hover{
-    background: black;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .home__explore{
