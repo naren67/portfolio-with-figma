@@ -8,6 +8,19 @@ body {
   font-family: monospace;
 }
 
+.car{
+  margin-top: 100px !important;
+}
+
+.car__app{
+  background: red !important;
+  color: white !important;
+}
+
+.car__image{
+  width: 60%;
+}
+
 .container {
   width: 100%;
   height: auto;
