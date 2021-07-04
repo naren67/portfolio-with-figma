@@ -28,6 +28,12 @@ body {
   background: black;
 }
 
+/* bag image design */
+
+/* .bag__image{
+  border-radius: 45px;
+} */
+
 .book__color{
   background: #6C63FF !important;
   color: white;
