@@ -92,6 +92,21 @@ p {
   margin: 0 auto;
 }
 
+.adobe_image{
+  width: 80%;
+}
+
+.adobe__projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.some__radius{
+  background: black;
+}
+
 .fruite a{
   color: black;
   background: white;

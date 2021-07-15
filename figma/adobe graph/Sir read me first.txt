@@ -1,0 +1,18 @@
+I created all the welcome screen design using adobe illustrator and I also added the .ai files
+
+---------------------------------------------------------
+
+
+Here is the figma app design link -
+
+https://www.figma.com/file/g18LD1ZWFqJ3iO361WaEw7/Untitled?node-id=0%3A1
+
+
+--------------------------------------------------------------------------------
+
+
+Please check all my work
+
+1. Added welcome screen design
+2. Added chat app design
+3. Added working prototype app link inside the above given link
