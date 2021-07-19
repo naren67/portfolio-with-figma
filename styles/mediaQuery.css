@@ -1,0 +1,1660 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* max width 480px */
+
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  /* logo */
+
+  .logo svg {
+    width: 50px;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+
+  .mouse {
+    display: none;
+  }
+
+  /* hamburger menu */
+
+  .github_btn {
+    display: none;
+  }
+
+  .hamburger {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+
+    background: none;
+    outline: none;
+    margin-right: 10%;
+    border: none;
+    transform: rotate(-20deg);
+  }
+
+  .hamburger .bar,
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    margin-top: 6px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .hamburger.is-active::before {
+    transform: rotate(90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active::after {
+    transform: rotate(-90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active .bar {
+    transform: rotate(170deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    display: block;
+    z-index: 99;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 20vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in;
+  }
+
+  .nav-menu.is-active {
+    left: 0%;
+  }
+
+  .buttonOne {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 30%;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonOne a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    text-decoration: none;
+  }
+
+  .buttonOne:hover {
+    width: 33%;
+  }
+
+  .buttonTwo {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 30%;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonTwo a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+  }
+
+  .buttonTwo:hover {
+    width: 33%;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+                background: rgb(255, 60, 60);
+          } */
+
+  .img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 60vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 20%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 20%;
+  }
+
+  .life {
+    padding-bottom: 35%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+  }
+
+  .myself p {
+    padding-top: 20%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 60vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 130vh;
+    overflow: hidden;
+  }
+
+  .idol img {
+    width: 60vw;
+    padding-top: 35%;
+  }
+
+  .sports_like {
+    padding-top: 15%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 10%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 400px;
+    padding-left: 8%;
+    font-size: calc(48px);
+  }
+
+  .percentage p {
+    padding-left: 10%;
+    font-size: calc(32px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 60vw;
+    padding-bottom: 20%;
+    padding-right: 20%;
+    margin-top: 15%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 130vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+  }
+
+  .worked h1 {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: calc(60px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+    display: none;
+  }
+
+  .compass svg {
+    width: 60vw;
+    padding-right: 5%;
+    margin-top: 10%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail {
+    transform: translateX(-30px);
+  }
+
+  .mail a {
+    font-size: 16px;
+    margin-left: 13%;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 5.5%;
+  }
+}
+
+/* max width 480px */
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  .mouse {
+    display: none;
+  }
+  /* logo */
+
+  .logo svg {
+    width: 50px;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+
+  /* hamburger menu */
+
+  .github_btn {
+    display: none;
+  }
+
+  .hamburger {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+
+    background: none;
+    outline: none;
+    margin-right: 10%;
+    border: none;
+    transform: rotate(-20deg);
+  }
+
+  .hamburger .bar,
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    margin-top: 6px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .hamburger.is-active::before {
+    transform: rotate(90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active::after {
+    transform: rotate(-90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active .bar {
+    transform: rotate(170deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    display: block;
+    z-index: 99;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 20vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in;
+  }
+
+  .nav-menu.is-active {
+    left: 0%;
+  }
+
+  .buttonOne {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 30%;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonOne a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    text-decoration: none;
+  }
+
+  .buttonOne:hover {
+    width: 33%;
+  }
+
+  .buttonTwo {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 30%;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonTwo a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+  }
+
+  .buttonTwo:hover {
+    width: 33%;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+                background: rgb(255, 60, 60);
+          } */
+
+  .img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 60vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 20%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 20%;
+  }
+
+  .life {
+    padding-bottom: 35%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+  }
+
+  .myself p {
+    padding-top: 20%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 60vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 160vh;
+    overflow: hidden;
+  }
+
+  .idol img {
+    width: 60vw;
+    padding-top: 35%;
+  }
+
+  .sports_like {
+    padding-top: 15%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 10%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 400px;
+    padding-left: 8%;
+    font-size: calc(48px);
+  }
+
+  .percentage p {
+    padding-left: 10%;
+    font-size: calc(32px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 60vw;
+    padding-bottom: 20%;
+    padding-right: 20%;
+    margin-top: 15%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 130vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+  }
+
+  .worked h1 {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: calc(60px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+    display: none;
+  }
+
+  .compass svg {
+    width: 60vw;
+    padding-right: 20%;
+    margin-top: 10%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail {
+    transform: translateX(-30px);
+  }
+
+  .mail a {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 5.5%;
+  }
+}
+
+/* max-width:600px */
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  .mouse {
+    display: none;
+  }
+
+  /* logo */
+
+  .logo svg {
+    width: 55px;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+                background: pink;
+          } */
+
+  /* handburger */
+
+  .github_btn {
+    display: none;
+  }
+
+  .hamburger {
+    width: 32px;
+    display: block;
+    cursor: pointer;
+
+    background: none;
+    outline: none;
+    margin-right: 6%;
+    border: none;
+    transform: rotate(-20deg);
+  }
+
+  .hamburger .bar,
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    margin-top: 6px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .hamburger.is-active::before {
+    transform: rotate(90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active::after {
+    transform: rotate(-90deg) translateY(18px) translateX(15px);
+  }
+
+  .hamburger.is-active .bar {
+    transform: rotate(170deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    display: block;
+    z-index: 99;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 20vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in;
+  }
+
+  .nav-menu.is-active {
+    left: 0%;
+  }
+
+  .buttonOne {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 25%;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonOne a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    text-decoration: none;
+  }
+
+  .buttonOne:hover {
+    width: 27%;
+  }
+
+  .buttonTwo {
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 25%;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+
+  .buttonTwo a {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+  }
+
+  .buttonTwo:hover {
+    width: 27%;
+  }
+
+  .img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 60vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 20%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 20%;
+  }
+
+  .life {
+    padding-bottom: 35%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 120vh;
+  }
+
+  .myself p {
+    padding-top: 20%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 60vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 160vh;
+  }
+
+  .idol img {
+    width: 60vw;
+    padding-top: 35%;
+  }
+
+  .sports_like {
+    padding-top: 15%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 10%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 400px;
+    padding-left: 8%;
+    font-size: calc(48px);
+  }
+
+  .percentage p {
+    padding-left: 10%;
+    font-size: calc(32px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 60vw;
+    padding-bottom: 20%;
+    padding-right: 20%;
+    margin-top: 15%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 125vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+  }
+
+  .worked h1 {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: calc(60px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+    display: none;
+  }
+
+  .compass svg {
+    width: 60vw;
+    padding-right: 20%;
+    margin-top: 20%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail a {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 5.5%;
+  }
+}
+
+/* max-width:768px */
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  /* handburger */
+
+  .handburger {
+    display: none;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+                background: greenyellow;
+          } */
+
+  /* handburger */
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 60vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-right: 20%;
+    padding-top: 20%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 15%;
+  }
+
+  .life {
+    padding-bottom: 35%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 170vh;
+  }
+
+  .myself p {
+    padding-top: 10%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 60vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 240vh;
+  }
+
+  .idol img {
+    width: 60vw;
+    padding-top: 35%;
+  }
+
+  .sports_like {
+    padding-top: 15%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 6%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 450px;
+    padding-left: 8%;
+    font-size: calc(55px);
+  }
+
+  .percentage p {
+    padding-left: 10%;
+    font-size: calc(38px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 60vw;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    margin-top: 15%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 140vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+  }
+
+  .worked h1 {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: calc(80px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+    display: none;
+  }
+
+  .compass svg {
+    width: 60vw;
+    padding-right: 20%;
+    margin-top: 8%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail a {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 4%;
+  }
+}
+
+/* max-width:1024px */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  /* handburger */
+
+  .handburger {
+    display: none;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+                background: rgb(255, 0, 0);
+          } */
+
+  /* handburger */
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 45vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 10%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 5%;
+  }
+
+  .life {
+    padding-bottom: 15%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 190vh;
+  }
+
+  .myself p {
+    padding-top: 10%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 50vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 240vh;
+  }
+
+  .idol img {
+    width: 40vw;
+    padding-top: 50%;
+  }
+
+  .sports_like {
+    padding-top: 15%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 6%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 600px;
+    padding-left: 5%;
+    font-size: calc(60px);
+  }
+
+  .percentage p {
+    padding-left: 6%;
+    font-size: calc(38px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 60vw;
+    padding-bottom: 6%;
+    padding-right: 20%;
+    margin-top: 10%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 145vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+  }
+
+  .worked h1 {
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: calc(80px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+    display: none;
+  }
+
+  .compass svg {
+    width: 60vw;
+    padding-right: 20%;
+    margin-top: 8%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail a {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 2%;
+  }
+}
+
+/* max-width: 1382px */
+
+@media screen and (min-width: 1024px) and (max-width: 1382px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  /* handburger */
+
+  .handburger {
+    display: none;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+               background: yellow;
+         } */
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .img_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img img {
+    width: 35vw;
+    padding-top: 30%;
+  }
+
+  .name {
+    text-align: center;
+    padding-top: 14%;
+    display: flex;
+  }
+
+  .name h1 {
+    font-size: calc(6vw);
+    transform: rotate(-90deg);
+  }
+
+  .name marquee {
+    font-size: calc(5vw);
+  }
+
+  .page_one {
+    width: 100%;
+    height: 5%;
+  }
+
+  .life {
+    padding-bottom: 15%;
+  }
+
+  /* page two */
+
+  .self_intro {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_two {
+    width: 100%;
+    height: 210vh;
+  }
+
+  .myself p {
+    padding-top: 10%;
+  }
+
+  .myself h1 {
+    padding-top: 10%;
+  }
+
+  .hand img {
+    width: 40vw;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  /* page three */
+
+  .page_three {
+    height: 310vh;
+  }
+
+  .idol img {
+    width: 40vw;
+    padding-top: 50%;
+  }
+
+  .sports_like {
+    padding-top: 5%;
+  }
+
+  .sports_like h1 {
+    padding-bottom: 10%;
+  }
+
+  .sports_like p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+
+  .sports_message {
+    padding-bottom: 15%;
+  }
+
+  /* page four */
+
+  .school_marquee {
+    padding-top: 0%;
+  }
+
+  .rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .percentage h1 {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    max-width: 800px;
+    padding-left: 5%;
+    font-size: calc(80px);
+  }
+
+  .percentage p {
+    padding-left: 6%;
+    font-size: calc(45px);
+  }
+
+  .totalMarks {
+    padding-bottom: 10%;
+  }
+
+  .rank_img img {
+    width: 50vw;
+    padding-bottom: 6%;
+    padding-right: 20%;
+    margin-top: 10%;
+  }
+
+  /* page five */
+
+  .page_five {
+    width: 100%;
+    height: 140vh;
+  }
+
+  .work_compass {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18%;
+  }
+
+  .worked h1 {
+    padding-top: 0%;
+    padding-bottom: 8%;
+    font-size: calc(80px);
+  }
+
+  .worked p {
+    padding-bottom: 10%;
+    font-size: calc(33px);
+  }
+
+  .myWork {
+  }
+
+  .compass svg {
+    width: 80vw;
+    padding-right: 20%;
+  }
+
+  .myWork a {
+    padding-right: 20%;
+  }
+
+  .mail a {
+    font-size: 20px;
+  }
+
+  /* footer */
+
+  .know_more {
+    padding-top: 2%;
+  }
+}
+
+/* max-width: 1824px */
+
+@media screen and (min-width: 1382px) and (max-width: 1824px) {
+  /* loading page */
+
+  .loadingPage {
+  }
+
+  /* handburger */
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  /* page one */
+
+  /* .header-parts{
+               background: gainsboro;
+         } */
+
+  .nameMarquee marquee {
+    padding-top: 5%;
+  }
+
+  /* page three */
+
+  .sports_info {
+    margin-top: 15%;
+  }
+
+  .sports_message {
+    margin-bottom: 5%;
+  }
+
+  /* page four */
+
+  .totalMarks p {
+    font-size: calc(3vw);
+  }
+
+  /* page 5 */
+
+  .worked p {
+    font-size: calc(2.6vw);
+    margin-top: 15%;
+  }
+
+  .page_five {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+}

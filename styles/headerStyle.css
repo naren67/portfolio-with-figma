@@ -1,0 +1,121 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zilla Slab Highlight', cursive;
+    overflow-x: hidden;
+
+}
+
+   /* for chrome safari opera */
+   ::-webkit-scrollbar{
+    display: none;
+    background: #00b9ff;
+}
+
+/* for Ie edge firefox */
+
+::-webkit-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.container{
+          width: 100%;
+}
+
+.header{
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+.header-parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.logo{
+          padding-left: 3%;
+          display: inline-block;
+}
+
+.logo svg{
+    width: 58px;
+}
+
+.spanName{
+    font-family:fantasy;
+}
+
+/* button */
+
+.github_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 3%;
+}
+
+
+.button-one{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.button-one:hover{
+    background: black;
+    color: white;
+}
+
+.button-one a:hover{
+    color: white;
+}
+
+.button-two{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid black;
+    margin-top: 0%;
+}
+
+
+.button-two:hover{
+    background: black;
+    color: white;
+}
+
+.button-two a:hover{
+    color: white;
+}
+
+.button-one a, .button-two a{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-menu{
+    display: none;
+}
+

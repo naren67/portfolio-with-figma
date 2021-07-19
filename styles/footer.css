@@ -1,0 +1,32 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.footer{
+          width: 100%;
+          height: 15vh;
+}
+
+.know_more{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+}
+
+.know_more img{
+          width: 30px;  
+          transition: 0.5s ease-in-out;  
+}
+
+.know_more img:hover{
+       transform: scale(1.2);
+}
+
+.know_more a{
+          margin: 2%;
+}
+
+

@@ -1,0 +1,50 @@
+
+/* header logo */
+
+#large-circle{
+          animation: large-c 5s infinite linear;
+          transform-origin: center;
+         
+  }
+  
+  @keyframes large-c{
+            from{
+                      transform: rotate(0deg);
+            }
+            to{
+                      transform: rotate(360deg);
+            }
+  }
+  
+  #middle-line{
+            animation: m-line 1s infinite linear;
+            transform-origin: center;
+           
+    }
+    
+    @keyframes m-line{
+              from{
+                        transform: rotate(20deg);
+              }
+              to{
+                        transform: rotate(90deg);
+              }
+    }
+
+    
+    /* compass */
+
+    #needle{
+          animation: spike 2s infinite linear;
+          transform-origin: center;
+          transform-box: fill-box;
+      }
+      
+      @keyframes spike{
+                from{
+                          transform: rotate(0deg);
+                }
+                to{
+                          transform: rotate(360deg);
+                }
+      }

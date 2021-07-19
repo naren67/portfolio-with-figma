@@ -1,0 +1,68 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.pageTwo{
+          width: 100%;
+          height: 208vh;
+          background: cadetblue;
+          display: flex;
+          justify-content: space-evenly;
+}
+
+.firstIcons, .detailsOne{
+          margin-top: 200px;
+}
+
+.firstIcons{
+          width: 50%;
+}
+
+.appsOne{
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: 6%;
+}
+
+.appsOne div img{
+          width: 20vw;
+          background: rgba(207, 208, 206, 0.517);
+          padding: 30px;
+}
+
+/*  */
+
+
+.detailsOne{
+         background: rgba(220, 220, 220, 0.483); 
+}
+
+.detailsOfFirstFourApps{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+}
+
+.detailsOfFirstFourApps div{
+          margin: 50px;
+
+}
+
+.detailsOfFirstFourApps div h1{
+          color: yellow;
+          margin-bottom: 20px;
+}
+
+.detailsOfFirstFourApps div p{
+          color: white;
+          font-size: calc(20px + 0.001vw);
+}
+
+.dFigma p, .dCss p, .dPs p, .dHtml p{
+          max-width: 500px;
+}

@@ -1,0 +1,128 @@
+/* landing-page */
+
+/* logo-animation */
+
+#cross-line{
+          animation: big-line 5s infinite linear;
+          transform-origin: center;
+          transform-box: fill-box;
+  }
+  
+  @keyframes big-line{
+          from{
+                  transform: rotate(0deg);
+          }
+          to{
+                  transform: rotate(360deg);
+          }
+  }
+  
+  #center-line{
+          animation: center-line 1s infinite linear alternate-reverse;
+          transform-origin: center;
+          transform-box: fill-box;
+  }
+  
+  @keyframes center-line{
+          from{
+                  transform: rotate(0deg);
+          }
+          to{
+                  transform: rotate(80deg);
+          }
+  }
+  
+  #center-circle{
+          animation: center-circle 2.5s infinite linear alternate-reverse;
+          transform-origin: center;
+          transform-box: fill-box;
+  }
+  
+  @keyframes center-circle{
+       100%{
+               transform: scale(2);
+       }
+  }
+  
+  .loader{
+          background: white;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 500;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  }
+  
+  /* black-slider  */
+  
+  .blueSlider{
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 499;
+          background: #000000;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          padding-bottom: 100px;
+          padding-left: 30px;
+  }
+  
+  .blueSlider p{
+          color: #ffffff;
+          font-size: 80px;
+          font-weight: 800;
+          align-self: flex-end;
+          background: rgb(0, 0, 0);
+  
+  }
+  
+  /* blue-slider */
+  
+  .limeSlider{
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 498;
+          background: #007FFF;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          padding-bottom: 100px;
+          padding-left: 30px;
+  }
+  
+  .limeSlider p{
+          color: rgb(255, 255, 255);
+          font-size: 80px;
+          font-weight: 800;
+          align-self: flex-end;
+  
+  }
+  
+  /* lime-slider */
+  
+  .pinkSlider{
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 497;
+          background:#C0FF02;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          padding-bottom: 100px;
+          padding-left: 30px;
+  }
+  
+  .pinkSlider p{
+          color: rgb(0, 0, 0);
+          font-size: 65px;
+          font-weight: 700;
+          align-self: flex-end;
+  
+  }

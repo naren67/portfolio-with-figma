@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.car{
+  margin-top: 100px !important;
+}
+
+.give_border{
+  border: 1px solid white;
+}
+
+.car__app{
+  background: red !important;
+  color: white !important;
+}
+
+.car__image{
+  width: 60%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background: black;
+}
+
+/* bag image design */
+
+/* .bag__image{
+  border-radius: 45px;
+} */
+
+.book__color{
+  background: #6C63FF !important;
+  color: white;
+}
+
+img {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 2px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1,
+p {
+  color: white;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.social__image{
+  width: 50%;
+  height: 50%;
+}
+
+p {
+  font-size: 42px;
+  padding-top: 30px;
+}
+
+.fruite{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fruite__images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fruite__images img{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.adobe_image{
+  width: 80%;
+}
+
+.adobe__projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.some__radius{
+  background: black;
+}
+
+.fruite a{
+  color: black;
+  background: white;
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.fruite a:hover{
+  background: orange;
+  color: white;
+}
+
+@media screen and (max-width:1000px){
+  .fruite__images img{
+     width:100%;
+  }
+}
+
+
+.mobile{
+  width: 60%;
+}
+
+.mobile__images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media screen and (max-width: 570px){
+  .mobile__images{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .mobile__images img{
+    width: 80%;
+  }
+
+  
+}
+
+.UIUX a{
+  display: inline-block;
+  background: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 16px;
+  transition: 0.5s ease-in;
+}
+
+.UIUX a:hover{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.computer__images{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.computer__images img{
+  width: 80%;
+}
+
+
+
+
+
+/* whats app */
+
+.whats__app{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.whats__app a{
+  background:  #25d366;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  transition: 0.5s ease;
+}
+
+.whats__app a:hover{
+  background:  #2ca559;
+}
+
+.whats__app__images{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.whatsapp__images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.whatsapp__images img{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 570px){
+  .whatsapp__images{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .whatsapp__images img{
+    width: 80%;
+  }
+
+  
+}
+
+@media screen and (max-width: 935px) and (min-width: 572px){
+  .whatsapp__images{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .whatsapp__images img{
+    width: 80%;
+  }
+
+  
+}
+
+
+
+
+/* nav bar */
+
+.nav{
+  position: fixed;
+  top: 80px;
+  right: 60px;
+}
+
+.nav a{
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  transition: 0.5s ease;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.nav a:hover{
+  background: rgb(196, 196, 196);
+  color: black;
+  padding: 10px 20px;
+}
+

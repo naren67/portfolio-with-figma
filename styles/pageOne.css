@@ -1,0 +1,111 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.page_one{
+          width: 100%;
+          height: 180vh;
+          background: #000000;
+          padding-top: 5%;
+          overflow: hidden;
+}
+
+
+.img_name{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap:wrap;
+}
+
+.profile_img img{
+         width: 26vw;
+         margin-top: 10%;
+         border-radius: 20px;
+}
+
+.profile_img img{
+        animation: plane 3s linear infinite alternate-reverse;
+}
+
+@keyframes plane{
+        from{
+                transform: translateY(0px);
+        }
+        to{
+                transform: translateY(50px);
+        }
+}
+
+.name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+}
+
+.name marquee{
+          font-size: calc(1.8vw);
+          color: #ffffff;
+          border-top: 6px solid #ffffff;
+          border-bottom: 20px solid #ffffff;
+          display: inline-block;
+          max-width: 300px;
+          margin-top: 30%;
+          transition: 0.5s ease-in-out;
+}
+
+
+
+.name h1{
+          font-size: 3.8vw;
+          color: #C0FF02;
+          transform: rotate(-90deg);
+          padding-left: 5%;
+          padding-bottom: 20%;
+          margin-left: 10%;
+          font-weight: 600;
+          transition: 0.5s ease-in-out;
+          font-family: 'Zilla Slab Highlight', cursive;
+}
+
+h1 span{
+        color: white;
+        transition: 0.5s ease;
+}
+
+h1 span:hover{
+        color: #C0FF02;
+}
+
+.name marquee:hover{
+        color: white;
+        border-top: 26px solid #C0FF02;
+          border-bottom: 6px solid white;
+}
+
+.name h1:hover{
+        color: white;
+        border-top: 6px solid rgb(255, 255, 255);
+          border-bottom: 20px solid #C0FF02;
+}
+
+.life{
+          max-width: 90vw;
+}
+
+.life h1{
+        font-size: calc(20px + 5vw) ;  
+        color: white;
+        padding-left: 18%;
+        padding-top: 20%;
+        transition: 0.5s ease-in-out;
+}
+
+.life h1:hover{
+        color: #007FFF;
+        border-bottom: 5px solid white;
+}
+
