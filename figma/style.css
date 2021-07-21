@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.space__down{
+  margin: 100px 0px;
+}
+
 body {
   font-family: monospace;
 }
